@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name:  myphp
-        image: vimal13/apache-webserver-php
+        image: bobby8249/webserver-php
         ports:
         - containerPort: 80
         volumeMounts:
